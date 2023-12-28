@@ -24,7 +24,6 @@ const interactionEvent = {
   ],
 };
 
-// Crear una solicitud para enviar eventos de interacción
 const params = {
   trackingId: 'ID_DE_SEGUIMIENTO', // Reemplaza con el ID de seguimiento de tu conjunto de datos de eventos
   userId: 'usuario123', // Identificador único del usuario
