@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "generate":"node src/generators-files/interactions/interations-file.js"
   },
   "author": "",
