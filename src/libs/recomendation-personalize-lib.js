@@ -1,4 +1,4 @@
-const {personalizeRuntime } = require('../services/aws-services');
+const { personalizeRuntime } = require('../services/aws-services');
 
 
 const getRecomendationsP = ({campaignArn ,userId , numResults }) =>{
