@@ -2,21 +2,10 @@ const express = require('express');
 const app = express();
 const puerto = 3000;
 
-app.post('/interactions', (req, res) => {
-  
-res.json({
-    "lol":1
-})
+const routes = require('./src/routes');
 
-});
+app.use('/', routes);
 
-app.get('/getRecommendations', (req, res) => {
-  
-  res.json({
-      "lol":1
-  })
-  
-  });
 
 
 app.listen(puerto, () => {

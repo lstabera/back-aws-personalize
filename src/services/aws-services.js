@@ -11,37 +11,6 @@ AWS.config.update({
 const personalizeEvents = new AWS.PersonalizeEvents();
 const personalizeRuntime = new AWS.PersonalizeRuntime();
 
-
-
-// Definir el objeto de evento de interacción
-const interactionEvent = {
-  sessionId: 'sesion123', // Identificador de sesión único para el usuario
-  eventList: [
-    {
-      eventId: 'evento456', // Identificador único del evento
-      sentAt: new Date().toISOString(), // Marca de tiempo del evento
-      eventType: 'interacción', // Tipo de evento, por ejemplo, 'click', 'view', etc.
-      properties: JSON.parse('{"itemId": "producto789"}'), // Propiedades adicionales del evento en formato JSON
-    },
-  ],
-};
-
-const params = {
-  trackingId: 'ID_DE_SEGUIMIENTO', // Reemplaza con el ID de seguimiento de tu conjunto de datos de eventos
-  userId: 'usuario123', // Identificador único del usuario
-  sessionId: interactionEvent.sessionId,
-  eventList: interactionEvent.eventList,
-};
-
-// Enviar eventos de interacción a Personalize
-personalizeEvents.putEvents(params, (err, data) => {
-  if (err) {
-    console.error(err, err.stack);
-  } else {
-    console.log('Eventos de interacción enviados con éxito:', data);
-  }
-});
-
 module.exports = {
   personalizeEvents,
   personalizeRuntime

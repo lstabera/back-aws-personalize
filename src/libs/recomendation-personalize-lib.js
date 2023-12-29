@@ -22,4 +22,4 @@ const getRecomendationsP = ({campaignArn ,userId , numResults }) =>{
 } 
 
 
-module.exports = getRecomendationsP;
+module.exports = {getRecomendationsP};
