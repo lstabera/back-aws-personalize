@@ -46,23 +46,15 @@ function generarTimestampAleatorioEsteAno() {
   return Math.floor(timestampAleatorio / 1000);
 }
 
-function generarDatosViewCourses(randomNumber) {
+function generarDatosViewCourses(randomNumber, hours, price) {
    // Generar un número aleatorio entre 0 y 1
-   
-  
-   // Si el valor aleatorio es menor que 0.5, devolver "view" con un número aleatorio
    if (randomNumber < 0.5) {
-     const view = Math.floor(Math.random() * 100) + 1;
-     return { campo: "VIEW", valor: view };
+     return { campo: "HOURS", valor: hours };
    } else {
      // Si el valor aleatorio es mayor o igual a 0.5, devolver "purchase" con un valor booleano
-     const purchase = Math.random() < 0.5;
-     return { campo: "PURCHASE", valor: purchase };
+     return { campo: "PURCHASE", valor: price};
    }
 }
-
-
-
 
 function asignarCursosAleatorios(usuarios, cursos, timestamp) {
   const asignaciones = [];
@@ -73,13 +65,16 @@ function asignarCursosAleatorios(usuarios, cursos, timestamp) {
   // Obtener cursos aleatorios para el usuario
   for (let i = 0; i < numeroCursos; i++) {
     const cursoAleatorio = cursos[Math.floor(Math.random() * cursos.length)];
+
+    console.log(cursoAleatorio);
+
     const randomValue = Math.random();
-    const viewAndPurchase = generarDatosViewCourses(randomValue);
+    const viewAndPurchase = generarDatosViewCourses(randomValue, cursoAleatorio.hours, cursoAleatorio.price);
     usuarios.forEach((usuario) => {
       // Crear la asignación para el usuario
       asignaciones.push({
         USER_ID: usuario,
-        ITEM_ID: cursoAleatorio,
+        ITEM_ID: cursoAleatorio.id_course,
         TIMESTAMP: timestamp,
         EVENT_TYPE:viewAndPurchase.campo,
         EVENT_VALUE:viewAndPurchase.valor
@@ -96,7 +91,7 @@ Promise.all([readCSV(file1), readCSV(file2)])
     // Aquí se está concatenando horizontalmente (agregando columnas)
     
     userData = data2.map((row) => row.id_user);
-    courseData = data1.map((row) => row.id_course);
+    courseData = data1.map((row) => row);
     rating = data1.map((row) => row.rating);
     
 
@@ -105,7 +100,7 @@ Promise.all([readCSV(file1), readCSV(file2)])
     const asignacionesAleatorias = asignarCursosAleatorios(userData, courseData, timestampAleatorio);
 
 
-    console.log(asignacionesAleatorias);
+    //console.log(courseData);
 
 
     //const datosResultado = data1.map((row, index) => ({ ...row, ...data2[index] }));
