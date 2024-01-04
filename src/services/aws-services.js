@@ -9,10 +9,8 @@ AWS.config.update({
 
 const personalizeEvents = new AWS.PersonalizeEvents();
 const personalizeRuntime = new AWS.PersonalizeRuntime();
-const sesService = new AWS.SES({apiVersion: '2010-12-01'});
 
 module.exports = {
   personalizeEvents,
   personalizeRuntime,
-  sesService
 };

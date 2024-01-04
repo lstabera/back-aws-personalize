@@ -73,6 +73,7 @@ const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
         Source: sourceEmail, /* required */
     };
 
+
     return new Promise((resolve, reject) => {
         sesService.sendEmail(params, (err, data) => {
             if (err) {
