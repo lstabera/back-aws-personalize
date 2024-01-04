@@ -1,18 +1,23 @@
 const { sesService } = require('../services/aws-services');
 
 const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
+
+
     try {
     const cursosHTML = coursesArray.map(courses => `
     <ul>
         <li>
-            <img src="${courses.split('-')[1]}" alt="${courses.split('-')[0]}">
-                <div class="course-info">
-                <h2>${courses.split('-')[0]}</h2>
-                <p>Description </p>
-                <a href="#">See more</a>
+            <h2>${courses.courseName}</h2>
+            <img src="${courses.url}" alt="Descripción de la imagen" style="width: 100%; height: auto; border-bottom: 1px solid #ddd; border-radius: 8px 8px 0 0;">
+            <h3>ID course ${courses.id} </h3>
+            <div class="course-info">
+            <strong> Hours: ${courses.hours}</strong>
+            <strong> Price:$ ${courses.price} </strong>
+            <p>Description </p>
+            <a href="#">See more</a>
             </div>
         </li>
-        </ul>
+    </ul>
     `).join('');
 
      // Create sendEmail params 
@@ -43,20 +48,15 @@ const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
                             padding: 0;
                         }
 
-                        h1 {
-                            text-align: center;
-                            color: #333;
-                        }
-
                         ul {
                             list-style-type: none;
-                            padding: 0;
+                            padding: 10px;
                             margin: 0;
                             display: flex;
                             flex-wrap: wrap;
-                            justify-content: center;
+                            justify-content: space-around;
                         }
-
+                        
                         li {
                             background-color: #fff;
                             border-radius: 8px;
@@ -66,21 +66,22 @@ const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
                             width: 300px;
                             transition: transform 0.3s ease-in-out;
                         }
-
-                        li:hover {
-                            transform: scale(1.05);
+                        .course-info {
+                            padding: 15px;
+                            text-align: left;
                         }
-
-                        img {
+                        
+                        h2 {
+                            color: #3498db;
+                        }
+                        .img {
                             width: 100%;
                             height: auto;
                             border-bottom: 1px solid #ddd;
+                            border-radius: 8px 8px 0 0; /* Añade esquinas redondeadas solo arriba */
                         }
-
-                        .course-info {
-                            padding: 15px;
-                        }
-                    </style>
+                        
+                        </style>
                                         </head>
                                         <body>
                             
