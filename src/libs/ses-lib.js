@@ -3,13 +3,14 @@ const { sesService } = require('../services/aws-services');
 
 
 const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
-
-    const cursosHTML = coursesArray.map(courseName => `
-        <li>
-        <strong>${courseName}</strong>
-        </li>
+    const cursosHTML = coursesArray.map(courses => `
+    <div>
+    <strong>${courses.split('-')[0]}</strong>
+    <ul> 
+      <img src="${courses.split('-')[1]}" width="200"/>
+    </ul>
+  </div>
     `).join('');
-
 
      // Create sendEmail params 
      var params = {
