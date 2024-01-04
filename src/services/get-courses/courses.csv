@@ -1,0 +1,501 @@
+id,course_name,rating,hours,price,experience,taken_by_users
+1,Sensory Integration Therapy for Occupational Therapists,2.2,3,593,Beginner,1681
+2,Pediatric Dentistry,2.1,22,182,Advanced,194
+3,Zoo and Wildlife Medicine,4.7,9,462,Intermediate,1327
+4,Oral and Maxillofacial Surgery for Dentists,4.2,6,108,Intermediate,719
+5,Hand Therapy for Occupational Therapists,3.0,12,194,Intermediate,1290
+6,Ergonomics for Occupational Therapists,4.4,14,269,Intermediate,940
+7,Orthodontics for Dentists,4.4,26,574,Advanced,511
+8,Endodontics for Dentists,2.3,7,257,Intermediate,1778
+9,Rehabilitation for Occupational Therapists,1.8,14,435,Intermediate,10
+10,Oral and Maxillofacial Surgery for Dentists,1.5,11,99,Beginner,485
+11,Geriatric Nursing,1.4,21,184,Intermediate,1175
+12,Equine Medicine and Surgery,1.5,17,168,Beginner,564
+13,Critical Care Nursing,4.8,11,533,Advanced,831
+14,Neurological Rehabilitation for Occupational Therapists,1.9,13,472,Beginner,1719
+15,Psychiatric Nursing,3.5,30,214,Beginner,1807
+16,Nursing Leadership and Management,1.1,22,513,Beginner,1952
+17,Sensory Integration Therapy for Occupational Therapists,1.4,14,535,Advanced,541
+18,Medical-Surgical Nursing,2.5,8,476,Beginner,803
+19,Periodontics for Dentists,2.4,30,340,Beginner,1356
+20,Sensory Integration Therapy for Occupational Therapists,1.6,21,204,Advanced,1703
+21,Pediatric Occupational Therapy,4.6,19,420,Advanced,157
+22,Veterinary Ophthalmology,2.9,19,53,Beginner,1372
+23,Neurological Rehabilitation for Occupational Therapists,3.8,6,322,Advanced,1998
+24,Pediatric Dentistry,1.2,20,385,Beginner,1201
+25,Maternal and Child Health Nursing,3.7,23,130,Beginner,645
+26,Obstetric Nursing,1.2,30,216,Advanced,156
+27,Obstetric Nursing,3.6,12,297,Beginner,1582
+28,Pediatric Occupational Therapy,4.5,30,228,Beginner,339
+29,Hand Therapy for Occupational Therapists,2.7,3,113,Beginner,1187
+30,Pediatric Occupational Therapy,4.6,24,43,Advanced,765
+31,Prosthodontics for Dentists,1.3,26,135,Advanced,538
+32,Nursing Leadership and Management,4.7,26,217,Beginner,1244
+33,Orthodontics for Dentists,4.1,22,345,Intermediate,449
+34,Exotic Animal Medicine,4.2,15,499,Intermediate,349
+35,Pediatric Dentistry,1.2,29,358,Beginner,152
+36,Critical Care Nursing,4.7,22,500,Beginner,1300
+37,Psychiatric-Mental Health Nursing,3.2,13,132,Beginner,1508
+38,Psychiatric Nursing,1.3,14,307,Beginner,499
+39,Maternal and Child Health Nursing,2.0,20,64,Intermediate,1884
+40,Pediatric Occupational Therapy,3.2,15,508,Beginner,151
+41,Endodontics for Dentists,2.0,13,559,Intermediate,225
+42,Pediatric Dentistry,1.5,12,364,Advanced,1388
+43,Small Animal Medicine and Surgery,4.1,27,389,Advanced,1939
+44,Obstetric Nursing,3.4,18,107,Beginner,1074
+45,Pediatric Occupational Therapy,3.7,13,410,Beginner,1440
+46,Geriatric Nursing,1.0,16,551,Advanced,1165
+47,Periodontics for Dentists,1.9,10,224,Intermediate,434
+48,Animal Nutrition and Dietetics,4.3,29,154,Intermediate,1300
+49,Medical-Surgical Nursing,4.5,27,318,Intermediate,1704
+50,Neurological Rehabilitation for Occupational Therapists,4.5,11,279,Advanced,724
+51,Obstetric Nursing,4.3,27,350,Beginner,758
+52,Dental Materials and Techniques,1.1,9,116,Beginner,1961
+53,Veterinary Surgical Procedures,3.7,10,337,Advanced,1444
+54,Small Animal Medicine and Surgery,4.7,19,179,Intermediate,1949
+55,Periodontics for Dentists,1.3,16,257,Advanced,1527
+56,Occupational Therapy for Geriatric Patients,2.7,19,512,Advanced,1667
+57,Sensory Integration Therapy for Occupational Therapists,4.0,18,240,Beginner,1314
+58,Veterinary Pharmacology,5.0,13,363,Advanced,1692
+59,Dental Materials and Techniques,4.0,22,323,Advanced,1297
+60,Psychiatric-Mental Health Nursing,2.0,25,222,Advanced,552
+61,Pediatric Dentistry,4.2,23,184,Intermediate,1064
+62,Pediatric Occupational Therapy,1.5,19,218,Beginner,740
+63,Occupational Therapy Techniques,3.0,30,77,Intermediate,1598
+64,Geriatric Nursing,4.8,21,344,Advanced,1077
+65,Veterinary Dermatology,3.3,19,123,Beginner,170
+66,Oral and Maxillofacial Surgery for Dentists,2.5,18,536,Intermediate,901
+67,Neurological Rehabilitation for Occupational Therapists,2.3,29,49,Advanced,1994
+68,Pediatric Occupational Therapy,1.7,19,122,Advanced,1310
+69,Hand Therapy for Occupational Therapists,2.5,23,272,Advanced,912
+70,Psychiatric-Mental Health Nursing,2.3,20,169,Intermediate,287
+71,Restorative Dentistry,3.6,26,275,Beginner,329
+72,Small Animal Medicine and Surgery,2.2,29,411,Advanced,1508
+73,Veterinary Dermatology,2.2,10,438,Beginner,376
+74,Zoo and Wildlife Medicine,1.3,23,148,Beginner,683
+75,Equine Medicine and Surgery,2.6,7,537,Beginner,1802
+76,Orthopedic Rehabilitation for Occupational Therapists,3.7,9,495,Intermediate,513
+77,Restorative Dentistry,2.6,18,183,Intermediate,193
+78,Psychiatric Nursing,2.0,19,310,Advanced,1505
+79,Small Animal Medicine and Surgery,2.7,11,33,Intermediate,179
+80,Oral and Maxillofacial Surgery for Dentists,1.2,21,527,Intermediate,802
+81,Veterinary Ophthalmology,1.2,5,470,Advanced,1102
+82,Small Animal Medicine and Surgery,3.5,13,398,Advanced,625
+83,Obstetric Nursing,4.0,20,480,Advanced,1152
+84,Nursing Leadership and Management,2.4,21,528,Intermediate,1927
+85,Assistive Technology for Occupational Therapists,2.4,11,156,Intermediate,45
+86,Occupational Therapy Techniques,1.7,10,564,Advanced,37
+87,Rehabilitation for Occupational Therapists,4.3,20,72,Intermediate,776
+88,Pediatric Occupational Therapy,3.3,15,513,Advanced,822
+89,Neurological Rehabilitation for Occupational Therapists,4.7,19,30,Beginner,1237
+90,Orthopedic Rehabilitation for Occupational Therapists,4.1,20,340,Intermediate,1985
+91,Endodontics for Dentists,2.3,21,398,Advanced,1703
+92,Periodontics for Dentists,4.8,27,93,Advanced,508
+93,Veterinary Medicine 101,1.6,22,323,Intermediate,208
+94,Prosthodontics for Dentists,4.3,8,301,Beginner,1046
+95,Orthodontics for Dentists,3.2,12,304,Intermediate,1261
+96,Maternal and Child Health Nursing,2.6,13,246,Intermediate,7
+97,Anatomy and Physiology for Nurses,4.1,11,371,Intermediate,1276
+98,Pharmacology for Dentists,4.0,11,284,Advanced,1614
+99,Veterinary Pharmacology,2.7,21,373,Intermediate,1001
+100,Neurological Rehabilitation for Occupational Therapists,5.0,23,100,Intermediate,313
+101,Community Health Nursing,1.7,7,321,Intermediate,1462
+102,Community Health Nursing,1.6,16,263,Intermediate,1600
+103,Community Health Nursing,3.1,10,503,Advanced,1705
+104,Rehabilitation for Occupational Therapists,1.8,4,44,Beginner,1272
+105,Anatomy and Physiology for Nurses,1.6,20,386,Advanced,1925
+106,Occupational Therapy for Geriatric Patients,2.6,28,480,Advanced,659
+107,Exotic Animal Medicine,2.6,27,47,Beginner,607
+108,Geriatric Nursing,1.8,11,56,Beginner,985
+109,Critical Care Nursing,3.9,21,283,Intermediate,512
+110,Oral and Maxillofacial Surgery for Dentists,3.3,8,185,Intermediate,6
+111,Veterinary Surgical Procedures,3.4,4,218,Beginner,1754
+112,Prosthodontics for Dentists,1.7,22,367,Advanced,100
+113,Obstetric Nursing,1.7,12,540,Advanced,1160
+114,Geriatric Nursing,2.4,16,126,Beginner,1547
+115,Veterinary Ophthalmology,4.4,14,419,Beginner,1128
+116,Animal Nutrition and Dietetics,1.3,14,205,Intermediate,1670
+117,Pediatric Occupational Therapy,4.0,10,289,Intermediate,514
+118,Geriatric Nursing,4.8,8,170,Beginner,453
+119,Anatomy and Physiology for Nurses,1.3,12,395,Advanced,489
+120,Orthodontics for Dentists,4.3,9,454,Beginner,655
+121,Small Animal Medicine and Surgery,2.6,19,498,Intermediate,131
+122,Avian Medicine and Surgery,4.8,30,522,Advanced,597
+123,Prosthodontics for Dentists,2.8,21,218,Intermediate,236
+124,Geriatric Nursing,2.2,19,592,Intermediate,844
+125,Exotic Animal Medicine,4.9,19,408,Advanced,1969
+126,Prosthodontics for Dentists,4.5,5,188,Advanced,846
+127,Veterinary Dermatology,4.7,8,213,Beginner,1623
+128,Endodontics for Dentists,1.3,14,138,Advanced,1328
+129,Critical Care Nursing,4.7,10,562,Advanced,1152
+130,Dental Materials and Techniques,4.4,17,298,Intermediate,1426
+131,Orthopedic Rehabilitation for Occupational Therapists,4.3,17,33,Intermediate,220
+132,Restorative Dentistry,1.7,6,200,Intermediate,982
+133,Medical-Surgical Nursing,3.3,27,417,Beginner,808
+134,Periodontics for Dentists,4.1,11,429,Intermediate,1879
+135,Nursing Ethics and Professionalism,1.9,4,562,Advanced,1380
+136,Equine Medicine and Surgery,1.6,25,188,Intermediate,1010
+137,Ergonomics for Occupational Therapists,2.3,17,44,Intermediate,600
+138,Veterinary Dermatology,3.5,16,390,Beginner,687
+139,Prosthodontics for Dentists,2.4,18,171,Intermediate,1576
+140,Psychiatric-Mental Health Nursing,3.7,21,397,Beginner,1076
+141,Prosthodontics for Dentists,3.6,23,226,Intermediate,1936
+142,Ergonomics for Occupational Therapists,2.9,27,130,Intermediate,806
+143,Avian Medicine and Surgery,1.1,14,290,Advanced,983
+144,Sensory Integration Therapy for Occupational Therapists,1.7,17,289,Advanced,1825
+145,Veterinary Ophthalmology,3.2,17,139,Beginner,1262
+146,Community Health Nursing,2.9,19,527,Beginner,49
+147,Psychiatric-Mental Health Nursing,1.2,28,262,Beginner,407
+148,Geriatric Nursing,1.3,23,184,Advanced,210
+149,Zoo and Wildlife Medicine,3.8,23,146,Beginner,1295
+150,Avian Medicine and Surgery,1.4,27,562,Intermediate,448
+151,Psychiatric-Mental Health Nursing,4.7,8,491,Advanced,395
+152,Medical-Surgical Nursing,3.4,23,307,Advanced,637
+153,Orthodontics for Dentists,1.6,17,528,Advanced,329
+154,Exotic Animal Medicine,1.3,8,161,Beginner,1488
+155,Rehabilitation for Occupational Therapists,3.7,4,585,Beginner,341
+156,Orthodontics for Dentists,2.7,8,215,Advanced,61
+157,Maternal and Child Health Nursing,2.7,28,87,Intermediate,1580
+158,Geriatric Nursing,3.5,14,475,Advanced,1324
+159,Orthopedic Rehabilitation for Occupational Therapists,4.0,30,531,Beginner,1806
+160,Obstetric Nursing,4.6,16,466,Intermediate,346
+161,Orthopedic Rehabilitation for Occupational Therapists,3.5,17,336,Advanced,1280
+162,Veterinary Pharmacology,3.7,5,479,Advanced,315
+163,Small Animal Medicine and Surgery,3.9,27,41,Advanced,782
+164,Oral and Maxillofacial Surgery for Dentists,1.2,25,98,Intermediate,890
+165,Nursing Ethics and Professionalism,4.1,21,362,Intermediate,559
+166,Small Animal Medicine and Surgery,1.3,23,95,Intermediate,962
+167,Animal Nutrition and Dietetics,1.8,19,600,Beginner,1905
+168,Neurological Rehabilitation for Occupational Therapists,2.3,20,391,Intermediate,1495
+169,Oral and Maxillofacial Surgery for Dentists,4.7,7,244,Advanced,1356
+170,Veterinary Dermatology,2.4,28,154,Intermediate,827
+171,Obstetric Nursing,1.9,29,355,Intermediate,1323
+172,Endodontics for Dentists,3.6,15,192,Beginner,1001
+173,Zoo and Wildlife Medicine,2.7,5,374,Intermediate,1495
+174,Neurological Rehabilitation for Occupational Therapists,4.2,16,545,Advanced,603
+175,Neurological Rehabilitation for Occupational Therapists,4.0,19,98,Intermediate,564
+176,Endodontics for Dentists,2.9,26,356,Advanced,1724
+177,Hand Therapy for Occupational Therapists,4.6,6,478,Intermediate,335
+178,Prosthodontics for Dentists,2.5,30,248,Advanced,256
+179,Small Animal Medicine and Surgery,2.8,3,336,Intermediate,1490
+180,Pediatric Dentistry,2.0,19,421,Intermediate,1830
+181,Pediatric Occupational Therapy,2.9,21,46,Beginner,337
+182,Animal Nutrition and Dietetics,3.1,29,289,Beginner,1509
+183,Dental Radiography,1.5,5,113,Intermediate,192
+184,Dental Materials and Techniques,2.3,18,112,Intermediate,476
+185,Critical Care Nursing,3.1,20,293,Beginner,657
+186,Obstetric Nursing,2.9,10,186,Advanced,149
+187,Sensory Integration Therapy for Occupational Therapists,1.5,7,201,Intermediate,1318
+188,Equine Medicine and Surgery,2.5,18,46,Intermediate,1473
+189,Geriatric Nursing,1.3,10,145,Intermediate,1255
+190,Anatomy and Physiology for Nurses,3.2,18,296,Intermediate,1090
+191,Occupational Therapy for Geriatric Patients,4.0,28,458,Intermediate,1261
+192,Critical Care Nursing,1.5,28,150,Beginner,126
+193,Restorative Dentistry,4.3,16,168,Intermediate,1080
+194,Small Animal Medicine and Surgery,2.2,3,368,Intermediate,371
+195,Obstetric Nursing,2.5,30,529,Advanced,1664
+196,Geriatric Nursing,3.8,26,342,Beginner,329
+197,Exotic Animal Medicine,2.9,3,256,Intermediate,573
+198,Exotic Animal Medicine,1.6,17,598,Intermediate,1552
+199,Orthodontics for Dentists,3.5,28,336,Advanced,750
+200,Ergonomics for Occupational Therapists,3.5,4,473,Beginner,369
+201,Restorative Dentistry,4.0,12,113,Intermediate,1467
+202,Prosthodontics for Dentists,2.4,15,296,Beginner,1489
+203,Veterinary Ophthalmology,1.4,15,138,Beginner,1662
+204,Neurological Rehabilitation for Occupational Therapists,1.3,7,376,Intermediate,1618
+205,Small Animal Medicine and Surgery,2.5,14,372,Intermediate,464
+206,Veterinary Ophthalmology,1.3,19,345,Intermediate,1243
+207,Geriatric Nursing,1.5,3,338,Intermediate,1880
+208,Hand Therapy for Occupational Therapists,2.5,12,313,Beginner,1756
+209,Veterinary Ophthalmology,2.1,10,132,Advanced,1250
+210,Equine Medicine and Surgery,1.4,6,66,Beginner,1426
+211,Orthopedic Rehabilitation for Occupational Therapists,2.2,25,440,Advanced,755
+212,Psychiatric-Mental Health Nursing,1.2,14,239,Beginner,1060
+213,Veterinary Dermatology,4.1,7,551,Beginner,997
+214,Dental Radiography,1.9,28,54,Intermediate,788
+215,Animal Nutrition and Dietetics,1.1,21,375,Advanced,485
+216,Exotic Animal Medicine,3.9,20,231,Beginner,334
+217,Equine Medicine and Surgery,2.1,9,256,Advanced,1797
+218,Ergonomics for Occupational Therapists,4.8,4,450,Beginner,300
+219,Pediatric Occupational Therapy,2.3,16,275,Advanced,334
+220,Sensory Integration Therapy for Occupational Therapists,3.2,14,228,Intermediate,577
+221,Ergonomics for Occupational Therapists,1.1,6,105,Advanced,1170
+222,Psychiatric Nursing,3.6,26,378,Advanced,475
+223,Avian Medicine and Surgery,2.8,22,212,Advanced,831
+224,Psychiatric-Mental Health Nursing,3.0,25,477,Beginner,920
+225,Veterinary Surgical Procedures,2.8,19,465,Beginner,1963
+226,Pharmacology for Dentists,3.9,17,203,Beginner,873
+227,Orthopedic Rehabilitation for Occupational Therapists,2.1,15,446,Intermediate,1370
+228,Pharmacology for Dentists,2.6,20,549,Intermediate,959
+229,Obstetric Nursing,1.6,12,438,Beginner,1582
+230,Rehabilitation for Occupational Therapists,4.2,15,133,Beginner,810
+231,Anatomy and Physiology for Nurses,3.8,17,565,Beginner,580
+232,Geriatric Nursing,2.6,17,445,Beginner,380
+233,Oral and Maxillofacial Surgery for Dentists,2.0,5,192,Intermediate,227
+234,Restorative Dentistry,1.6,11,264,Advanced,1551
+235,Oral and Maxillofacial Surgery for Dentists,4.2,12,323,Advanced,1799
+236,Pediatric Occupational Therapy,4.3,20,497,Intermediate,990
+237,Psychiatric Nursing,1.0,29,225,Beginner,48
+238,Prosthodontics for Dentists,3.8,25,78,Advanced,145
+239,Medical-Surgical Nursing,2.6,23,443,Advanced,1211
+240,Occupational Therapy Techniques,3.2,3,595,Beginner,990
+241,Oral and Maxillofacial Surgery for Dentists,1.8,11,83,Beginner,1390
+242,Neurological Rehabilitation for Occupational Therapists,1.7,28,298,Advanced,1180
+243,Pediatric Dentistry,2.5,12,407,Advanced,156
+244,Oral Pathology for Dentists,2.9,8,376,Advanced,49
+245,Veterinary Ophthalmology,2.7,8,350,Beginner,375
+246,Rehabilitation for Occupational Therapists,2.0,6,437,Advanced,1612
+247,Obstetric Nursing,3.7,7,424,Beginner,723
+248,Psychiatric-Mental Health Nursing,4.1,25,300,Advanced,796
+249,Occupational Therapy for Geriatric Patients,4.1,29,224,Intermediate,1600
+250,Neurological Rehabilitation for Occupational Therapists,2.3,8,187,Beginner,536
+251,Veterinary Ophthalmology,3.8,6,279,Advanced,868
+252,Endodontics for Dentists,4.4,9,100,Advanced,157
+253,Community Health Nursing,1.5,20,519,Beginner,1007
+254,Small Animal Medicine and Surgery,3.5,23,245,Advanced,629
+255,Community Health Nursing,2.1,12,487,Beginner,65
+256,Animal Nutrition and Dietetics,4.1,16,289,Advanced,1719
+257,Zoo and Wildlife Medicine,2.0,4,437,Advanced,1269
+258,Animal Nutrition and Dietetics,4.5,12,198,Intermediate,1780
+259,Orthodontics for Dentists,1.7,30,323,Advanced,917
+260,Anatomy and Physiology for Nurses,4.3,30,90,Intermediate,970
+261,Occupational Therapy for Geriatric Patients,1.6,26,87,Intermediate,1126
+262,Maternal and Child Health Nursing,3.8,15,86,Advanced,911
+263,Nursing Ethics and Professionalism,3.7,4,123,Intermediate,1874
+264,Pediatric Dentistry,2.4,12,332,Intermediate,1062
+265,Orthodontics for Dentists,4.5,23,47,Advanced,294
+266,Community Health Nursing,2.7,8,117,Intermediate,111
+267,Small Animal Medicine and Surgery,1.6,3,37,Advanced,74
+268,Periodontics for Dentists,1.9,25,195,Beginner,1536
+269,Zoo and Wildlife Medicine,1.3,25,376,Advanced,353
+270,Endodontics for Dentists,3.5,11,365,Advanced,1623
+271,Avian Medicine and Surgery,1.9,17,517,Beginner,747
+272,Restorative Dentistry,2.7,16,315,Beginner,1153
+273,Restorative Dentistry,3.2,22,176,Beginner,612
+274,Small Animal Medicine and Surgery,4.0,20,378,Advanced,1002
+275,Community Health Nursing,3.1,20,364,Beginner,182
+276,Exotic Animal Medicine,4.1,18,69,Advanced,854
+277,Geriatric Nursing,3.5,4,119,Intermediate,717
+278,Psychiatric Nursing,4.4,17,289,Beginner,1257
+279,Sensory Integration Therapy for Occupational Therapists,1.0,3,478,Advanced,331
+280,Occupational Therapy for Geriatric Patients,4.8,23,68,Advanced,961
+281,Veterinary Dermatology,2.5,5,250,Intermediate,596
+282,Endodontics for Dentists,3.6,8,477,Advanced,1859
+283,Avian Medicine and Surgery,2.0,22,489,Beginner,1898
+284,Anatomy and Physiology for Nurses,4.9,9,249,Intermediate,1953
+285,Community Health Nursing,1.2,12,526,Intermediate,1863
+286,Psychiatric-Mental Health Nursing,3.4,7,577,Intermediate,1675
+287,Zoo and Wildlife Medicine,3.4,12,64,Advanced,1620
+288,Critical Care Nursing,3.5,23,323,Advanced,664
+289,Geriatric Nursing,4.0,26,572,Beginner,879
+290,Small Animal Medicine and Surgery,4.0,18,326,Intermediate,1605
+291,Rehabilitation for Occupational Therapists,4.3,7,362,Advanced,138
+292,Psychiatric Nursing,2.6,29,410,Intermediate,1885
+293,Periodontics for Dentists,4.3,17,476,Beginner,254
+294,Orthopedic Rehabilitation for Occupational Therapists,2.7,16,163,Intermediate,900
+295,Orthodontics for Dentists,3.2,10,114,Beginner,656
+296,Restorative Dentistry,2.5,19,377,Beginner,904
+297,Prosthodontics for Dentists,2.0,19,121,Advanced,1112
+298,Neurological Rehabilitation for Occupational Therapists,2.3,12,151,Advanced,544
+299,Sensory Integration Therapy for Occupational Therapists,3.4,30,145,Beginner,1556
+300,Sensory Integration Therapy for Occupational Therapists,1.2,5,277,Beginner,694
+301,Prosthodontics for Dentists,3.4,22,225,Advanced,977
+302,Occupational Therapy Techniques,4.0,13,347,Beginner,423
+303,Sensory Integration Therapy for Occupational Therapists,1.0,4,598,Advanced,1971
+304,Exotic Animal Medicine,2.2,18,178,Intermediate,1803
+305,Orthopedic Rehabilitation for Occupational Therapists,2.3,18,446,Advanced,786
+306,Psychiatric-Mental Health Nursing,2.7,26,126,Beginner,215
+307,Psychiatric Nursing,1.7,29,551,Beginner,1725
+308,Occupational Therapy Techniques,3.1,24,226,Advanced,1306
+309,Veterinary Dermatology,2.6,16,160,Advanced,1550
+310,Critical Care Nursing,1.1,18,61,Beginner,1783
+311,Assistive Technology for Occupational Therapists,3.4,19,479,Intermediate,635
+312,Orthopedic Rehabilitation for Occupational Therapists,4.3,28,99,Beginner,501
+313,Medical-Surgical Nursing,4.7,14,162,Beginner,640
+314,Community Health Nursing,4.5,5,539,Beginner,1685
+315,Pediatric Dentistry,4.4,16,596,Beginner,1138
+316,Ergonomics for Occupational Therapists,1.1,16,522,Intermediate,622
+317,Psychiatric-Mental Health Nursing,1.5,9,233,Intermediate,66
+318,Pediatric Dentistry,3.4,20,509,Advanced,1364
+319,Endodontics for Dentists,3.3,12,227,Advanced,1401
+320,Oral and Maxillofacial Surgery for Dentists,1.2,14,420,Beginner,495
+321,Restorative Dentistry,3.2,30,273,Intermediate,448
+322,Veterinary Surgical Procedures,1.8,3,470,Intermediate,1624
+323,Pediatric Dentistry,4.2,3,36,Intermediate,1649
+324,Psychiatric Nursing,4.1,18,452,Beginner,388
+325,Occupational Therapy Techniques,3.6,3,313,Advanced,208
+326,Pediatric Dentistry,1.0,16,393,Intermediate,439
+327,Nursing Ethics and Professionalism,1.7,27,250,Beginner,1172
+328,Periodontics for Dentists,2.8,15,39,Intermediate,784
+329,Restorative Dentistry,4.6,5,312,Beginner,310
+330,Restorative Dentistry,3.0,9,285,Intermediate,1415
+331,Psychiatric Nursing,3.6,17,112,Beginner,1320
+332,Equine Medicine and Surgery,2.6,18,421,Advanced,1758
+333,Occupational Therapy Techniques,1.1,29,408,Advanced,1946
+334,Dental Materials and Techniques,2.1,19,70,Intermediate,1094
+335,Sensory Integration Therapy for Occupational Therapists,3.4,10,407,Beginner,1451
+336,Obstetric Nursing,1.7,10,62,Intermediate,1805
+337,Pharmacology for Dentists,3.3,4,282,Advanced,802
+338,Psychiatric Nursing,1.7,19,92,Beginner,668
+339,Medical-Surgical Nursing,1.8,17,138,Advanced,974
+340,Medical-Surgical Nursing,2.5,23,433,Intermediate,1485
+341,Pharmacology for Dentists,4.7,14,367,Intermediate,1498
+342,Psychiatric-Mental Health Nursing,1.8,5,496,Advanced,1000
+343,Prosthodontics for Dentists,4.8,20,501,Beginner,945
+344,Prosthodontics for Dentists,4.8,13,476,Beginner,1756
+345,Veterinary Ophthalmology,4.6,8,159,Beginner,1750
+346,Veterinary Pharmacology,2.3,11,549,Advanced,1369
+347,Veterinary Ophthalmology,2.6,28,78,Intermediate,1349
+348,Nursing Leadership and Management,3.2,24,469,Beginner,1991
+349,Veterinary Ophthalmology,2.6,26,550,Intermediate,140
+350,Endodontics for Dentists,1.9,10,147,Intermediate,1829
+351,Rehabilitation for Occupational Therapists,4.5,3,594,Intermediate,687
+352,Psychiatric-Mental Health Nursing,1.5,14,340,Intermediate,1822
+353,Geriatric Nursing,1.3,14,167,Beginner,1509
+354,Occupational Therapy for Geriatric Patients,5.0,27,464,Advanced,1976
+355,Pediatric Dentistry,2.8,26,547,Beginner,643
+356,Veterinary Surgical Procedures,1.2,26,465,Advanced,871
+357,Orthopedic Rehabilitation for Occupational Therapists,1.0,29,216,Advanced,76
+358,Psychiatric Nursing,4.3,14,439,Advanced,1286
+359,Orthopedic Rehabilitation for Occupational Therapists,1.5,22,60,Beginner,1344
+360,Restorative Dentistry,4.1,20,185,Advanced,963
+361,Pediatric Occupational Therapy,2.7,19,539,Intermediate,1394
+362,Nursing Ethics and Professionalism,2.6,17,403,Advanced,1361
+363,Neurological Rehabilitation for Occupational Therapists,2.9,14,374,Advanced,1045
+364,Ergonomics for Occupational Therapists,1.7,7,35,Beginner,281
+365,Ergonomics for Occupational Therapists,3.7,23,397,Intermediate,790
+366,Pediatric Dentistry,3.2,22,348,Advanced,740
+367,Small Animal Medicine and Surgery,1.2,9,349,Advanced,465
+368,Psychiatric-Mental Health Nursing,3.9,13,263,Intermediate,1766
+369,Avian Medicine and Surgery,4.7,25,572,Advanced,1655
+370,Avian Medicine and Surgery,1.5,16,118,Advanced,779
+371,Veterinary Surgical Procedures,3.1,9,98,Intermediate,144
+372,Endodontics for Dentists,1.8,28,355,Intermediate,931
+373,Zoo and Wildlife Medicine,2.4,17,304,Advanced,1064
+374,Nursing Leadership and Management,3.7,30,287,Beginner,29
+375,Occupational Therapy Techniques,1.0,6,74,Beginner,1359
+376,Endodontics for Dentists,4.3,17,276,Beginner,375
+377,Community Health Nursing,2.6,27,418,Beginner,864
+378,Psychiatric Nursing,4.3,3,540,Intermediate,906
+379,Endodontics for Dentists,1.1,30,206,Advanced,372
+380,Critical Care Nursing,1.5,20,373,Advanced,1858
+381,Rehabilitation for Occupational Therapists,4.7,25,455,Intermediate,1793
+382,Veterinary Pharmacology,1.2,21,164,Intermediate,1829
+383,Exotic Animal Medicine,3.5,26,164,Advanced,550
+384,Oral and Maxillofacial Surgery for Dentists,4.6,21,33,Intermediate,1067
+385,Nursing Leadership and Management,1.8,13,146,Advanced,911
+386,Orthopedic Rehabilitation for Occupational Therapists,3.0,23,57,Intermediate,929
+387,Assistive Technology for Occupational Therapists,3.9,25,364,Advanced,420
+388,Orthodontics for Dentists,1.7,15,142,Intermediate,1761
+389,Veterinary Surgical Procedures,2.0,6,446,Beginner,1022
+390,Veterinary Dermatology,4.6,10,406,Advanced,1074
+391,Veterinary Dermatology,4.0,22,465,Beginner,985
+392,Neurological Rehabilitation for Occupational Therapists,3.4,22,556,Intermediate,655
+393,Hand Therapy for Occupational Therapists,4.1,23,335,Intermediate,1087
+394,Equine Medicine and Surgery,1.6,26,219,Beginner,1399
+395,Obstetric Nursing,3.5,11,531,Beginner,666
+396,Occupational Therapy for Geriatric Patients,4.1,4,546,Advanced,699
+397,Animal Nutrition and Dietetics,4.4,7,58,Intermediate,120
+398,Community Health Nursing,4.5,16,599,Intermediate,1635
+399,Critical Care Nursing,3.3,13,104,Intermediate,819
+400,Exotic Animal Medicine,2.5,25,331,Advanced,495
+401,Hand Therapy for Occupational Therapists,1.2,4,431,Advanced,708
+402,Exotic Animal Medicine,4.7,27,156,Intermediate,1438
+403,Critical Care Nursing,1.3,14,275,Advanced,211
+404,Orthopedic Rehabilitation for Occupational Therapists,1.6,10,577,Intermediate,421
+405,Nursing Ethics and Professionalism,1.0,4,536,Beginner,1158
+406,Maternal and Child Health Nursing,4.6,19,402,Beginner,914
+407,Psychiatric-Mental Health Nursing,2.0,14,482,Advanced,53
+408,Oral and Maxillofacial Surgery for Dentists,4.7,17,161,Intermediate,1353
+409,Hand Therapy for Occupational Therapists,3.5,23,251,Intermediate,492
+410,Psychiatric-Mental Health Nursing,2.3,11,377,Beginner,1484
+411,Obstetric Nursing,3.5,27,550,Advanced,650
+412,Small Animal Medicine and Surgery,1.8,25,530,Advanced,42
+413,Hand Therapy for Occupational Therapists,2.0,20,123,Beginner,1104
+414,Equine Medicine and Surgery,3.9,22,376,Advanced,1904
+415,Pharmacology for Dentists,2.9,17,165,Beginner,1152
+416,Occupational Therapy for Geriatric Patients,4.6,4,407,Advanced,1224
+417,Hand Therapy for Occupational Therapists,3.2,18,563,Beginner,1934
+418,Dental Materials and Techniques,1.3,7,557,Intermediate,790
+419,Pediatric Occupational Therapy,2.3,16,530,Beginner,1789
+420,Rehabilitation for Occupational Therapists,2.8,8,181,Beginner,286
+421,Periodontics for Dentists,2.3,24,312,Advanced,322
+422,Veterinary Ophthalmology,2.9,21,225,Beginner,329
+423,Anatomy and Physiology for Nurses,4.5,7,473,Intermediate,519
+424,Geriatric Nursing,2.9,18,55,Intermediate,1599
+425,Periodontics for Dentists,3.0,24,561,Advanced,1270
+426,Occupational Therapy for Geriatric Patients,2.8,25,498,Advanced,1216
+427,Veterinary Medicine 101,4.0,24,291,Advanced,1301
+428,Geriatric Nursing,3.4,5,583,Intermediate,1153
+429,Oral Pathology for Dentists,2.8,25,284,Beginner,1285
+430,Assistive Technology for Occupational Therapists,2.4,3,481,Advanced,1982
+431,Critical Care Nursing,3.5,23,223,Advanced,767
+432,Prosthodontics for Dentists,2.7,28,425,Beginner,1452
+433,Oral and Maxillofacial Surgery for Dentists,4.8,13,231,Intermediate,120
+434,Obstetric Nursing,4.6,17,80,Beginner,932
+435,Veterinary Ophthalmology,3.6,11,132,Beginner,489
+436,Orthopedic Rehabilitation for Occupational Therapists,1.3,22,112,Beginner,807
+437,Psychiatric Nursing,3.9,17,45,Beginner,1401
+438,Avian Medicine and Surgery,3.6,5,547,Beginner,662
+439,Medical-Surgical Nursing,4.3,17,241,Beginner,869
+440,Pediatric Dentistry,1.6,9,549,Advanced,1438
+441,Rehabilitation for Occupational Therapists,2.1,4,463,Advanced,477
+442,Community Health Nursing,3.5,14,395,Advanced,1066
+443,Nursing Leadership and Management,3.4,12,506,Intermediate,1810
+444,Equine Medicine and Surgery,3.4,3,568,Intermediate,1554
+445,Small Animal Medicine and Surgery,2.5,22,82,Beginner,1651
+446,Critical Care Nursing,3.8,24,48,Intermediate,446
+447,Ergonomics for Occupational Therapists,1.0,12,184,Intermediate,894
+448,Community Health Nursing,1.7,29,204,Intermediate,112
+449,Endodontics for Dentists,2.9,8,206,Intermediate,660
+450,Prosthodontics for Dentists,3.0,18,414,Beginner,1403
+451,Pediatric Occupational Therapy,3.9,25,34,Intermediate,1422
+452,Obstetric Nursing,4.2,8,283,Advanced,1243
+453,Ergonomics for Occupational Therapists,3.1,14,584,Intermediate,1002
+454,Prosthodontics for Dentists,3.4,16,137,Advanced,3
+455,Medical-Surgical Nursing,3.8,15,120,Beginner,1737
+456,Prosthodontics for Dentists,2.4,22,515,Beginner,1962
+457,Medical-Surgical Nursing,4.9,12,265,Beginner,1448
+458,Pediatric Occupational Therapy,4.7,4,278,Intermediate,1978
+459,Geriatric Nursing,3.7,9,245,Advanced,1435
+460,Zoo and Wildlife Medicine,1.5,4,230,Beginner,1280
+461,Medical-Surgical Nursing,1.8,18,83,Beginner,279
+462,Neurological Rehabilitation for Occupational Therapists,2.9,13,482,Beginner,360
+463,Veterinary Pharmacology,4.7,26,243,Advanced,1516
+464,Prosthodontics for Dentists,3.8,17,53,Beginner,436
+465,Periodontics for Dentists,4.6,13,557,Advanced,1335
+466,Neurological Rehabilitation for Occupational Therapists,1.9,4,54,Advanced,1648
+467,Pediatric Occupational Therapy,4.0,21,382,Intermediate,812
+468,Occupational Therapy Techniques,1.3,23,383,Beginner,1419
+469,Oral and Maxillofacial Surgery for Dentists,4.1,25,206,Beginner,1028
+470,Orthodontics for Dentists,2.3,28,466,Intermediate,1120
+471,Hand Therapy for Occupational Therapists,2.7,6,407,Beginner,651
+472,Oral and Maxillofacial Surgery for Dentists,2.4,13,77,Beginner,682
+473,Orthopedic Rehabilitation for Occupational Therapists,2.6,13,255,Beginner,1897
+474,Small Animal Medicine and Surgery,4.9,13,227,Advanced,483
+475,Hand Therapy for Occupational Therapists,4.1,20,486,Intermediate,201
+476,Equine Medicine and Surgery,3.6,13,214,Intermediate,459
+477,Veterinary Ophthalmology,4.6,25,314,Beginner,152
+478,Maternal and Child Health Nursing,2.4,9,211,Intermediate,201
+479,Veterinary Ophthalmology,4.7,26,173,Beginner,191
+480,Assistive Technology for Occupational Therapists,4.3,20,449,Intermediate,1127
+481,Rehabilitation for Occupational Therapists,3.9,29,68,Advanced,702
+482,Psychiatric-Mental Health Nursing,2.9,20,316,Advanced,720
+483,Pediatric Occupational Therapy,4.2,9,424,Beginner,848
+484,Assistive Technology for Occupational Therapists,4.5,4,212,Advanced,1663
+485,Community Health Nursing,1.6,20,484,Advanced,490
+486,Equine Medicine and Surgery,4.6,12,150,Intermediate,1356
+487,Endodontics for Dentists,2.8,30,392,Intermediate,1313
+488,Nursing Leadership and Management,1.7,27,50,Advanced,424
+489,Veterinary Dermatology,3.3,17,199,Advanced,501
+490,Pharmacology for Dentists,2.2,24,329,Advanced,344
+491,Community Health Nursing,4.8,20,191,Advanced,1054
+492,Occupational Therapy Techniques,3.1,18,34,Beginner,689
+493,Small Animal Medicine and Surgery,3.4,23,219,Intermediate,353
+494,Orthopedic Rehabilitation for Occupational Therapists,3.3,9,180,Advanced,1425
+495,Avian Medicine and Surgery,3.4,29,97,Intermediate,766
+496,Occupational Therapy for Geriatric Patients,4.7,29,153,Intermediate,612
+497,Equine Medicine and Surgery,1.2,21,226,Intermediate,1562
+498,Exotic Animal Medicine,1.2,25,188,Beginner,708
+499,Obstetric Nursing,3.9,26,580,Intermediate,1484
+500,Dental Radiography,3.8,4,585,Beginner,104

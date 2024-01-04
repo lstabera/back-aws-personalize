@@ -1,6 +1,6 @@
-const fs = require('fs');
-const csv = require('csv-parser');
-const fastcsv = require('fast-csv');
+const fs = require("fs");
+const csv = require("csv-parser");
+const fastcsv = require("fast-csv");
 
 const file1 = `${__dirname}/courses.csv`;
 const file2 = `${__dirname}/users_merged.csv`;
@@ -11,13 +11,13 @@ function readCSV(fileName) {
     const data = [];
     fs.createReadStream(fileName)
       .pipe(csv())
-      .on('data', (row) => {
+      .on("data", (row) => {
         data.push(row);
       })
-      .on('end', () => {
+      .on("end", () => {
         resolve(data);
       })
-      .on('error', (error) => {
+      .on("error", (error) => {
         reject(error);
       });
   });
@@ -29,10 +29,10 @@ function writeCSV(fileName, data) {
     fastcsv
       .write(data, { headers: true })
       .pipe(ws)
-      .on('finish', () => {
+      .on("finish", () => {
         resolve();
       })
-      .on('error', (error) => {
+      .on("error", (error) => {
         reject(error);
       });
   });
@@ -42,42 +42,41 @@ function generarTimestampAleatorioEsteAno() {
   const fechaActual = new Date();
   const inicioAno = new Date(fechaActual.getFullYear(), 0, 1).getTime();
   const finAno = new Date(fechaActual.getFullYear() + 1, 0, 1).getTime();
-  const timestampAleatorio = Math.floor(Math.random() * (finAno - inicioAno)) + inicioAno;
+  const timestampAleatorio =
+    Math.floor(Math.random() * (finAno - inicioAno)) + inicioAno;
   return Math.floor(timestampAleatorio / 1000);
 }
 
 function generarDatosViewCourses(randomNumber, hours, price) {
-   // Generar un número aleatorio entre 0 y 1
-   if (randomNumber < 0.5) {
-     return { campo: "HOURS", valor: hours };
-   } else {
-     // Si el valor aleatorio es mayor o igual a 0.5, devolver "purchase" con un valor booleano
-     return { campo: "PURCHASE", valor: price};
-   }
+  if (randomNumber < 0.5) {
+    return { campo: "HOURS", valor: hours };
+  } else {
+    return { campo: "PURCHASE", valor: price };
+  }
 }
 
-function asignarCursosAleatorios(usuarios, cursos, timestamp) {
+function asignarCursosAleatorios(usuarios, cursos) {
   const asignaciones = [];
 
-  // Determinar el número aleatorio de cursos para el usuario (puedes ajustar esto según tus necesidades)
   const numeroCursos = Math.floor(Math.random() * cursos.length) + 1;
 
-  // Obtener cursos aleatorios para el usuario
   for (let i = 0; i < numeroCursos; i++) {
+    const timestampAleatorio = generarTimestampAleatorioEsteAno();
     const cursoAleatorio = cursos[Math.floor(Math.random() * cursos.length)];
-
-    console.log(cursoAleatorio);
-
     const randomValue = Math.random();
-    const viewAndPurchase = generarDatosViewCourses(randomValue, cursoAleatorio.hours, cursoAleatorio.price);
+    const viewAndPurchase = generarDatosViewCourses(
+      randomValue,
+      cursoAleatorio.hours,
+      cursoAleatorio.price
+    );
     usuarios.forEach((usuario) => {
       // Crear la asignación para el usuario
       asignaciones.push({
         USER_ID: usuario,
         ITEM_ID: cursoAleatorio.id_course,
-        TIMESTAMP: timestamp,
-        EVENT_TYPE:viewAndPurchase.campo,
-        EVENT_VALUE:viewAndPurchase.valor
+        TIMESTAMP: timestampAleatorio,
+        EVENT_TYPE: viewAndPurchase.campo,
+        EVENT_VALUE: viewAndPurchase.valor,
       });
     });
   }
@@ -87,30 +86,20 @@ function asignarCursosAleatorios(usuarios, cursos, timestamp) {
 
 Promise.all([readCSV(file1), readCSV(file2)])
   .then(([data1, data2]) => {
-    // Combinar los datos de ambos archivos según sea necesario
-    // Aquí se está concatenando horizontalmente (agregando columnas)
-    
     userData = data2.map((row) => row.id_user);
     courseData = data1.map((row) => row);
     rating = data1.map((row) => row.rating);
-    
 
-    const timestampAleatorio = generarTimestampAleatorioEsteAno();
- 
-    const asignacionesAleatorias = asignarCursosAleatorios(userData, courseData, timestampAleatorio);
+    const asignacionesAleatorias = asignarCursosAleatorios(
+      userData,
+      courseData
+    );
 
-
-    //console.log(courseData);
-
-
-    //const datosResultado = data1.map((row, index) => ({ ...row, ...data2[index] }));
-
-    // Escribir el resultado en un nuevo archivo CSV
     return writeCSV(resultFile, asignacionesAleatorias);
   })
   .then(() => {
-    console.log('Unión completada. El resultado se encuentra en', resultFile);
+    console.log("Unión completada. El resultado se encuentra en", resultFile);
   })
   .catch((error) => {
-    console.error('Error:', error);
+    console.error("Error:", error);
   });
