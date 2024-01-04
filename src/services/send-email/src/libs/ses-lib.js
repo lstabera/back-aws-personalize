@@ -2,9 +2,12 @@ const { sesService } = require('../services/aws-services');
 
 
 
-const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
+const sendEmailP = ({sourceEmail ,receivingEmail, courses}) =>{
     try {
-        const cursosHTML = coursesArray.map(courseName => `
+
+        console.log(courses);
+
+        const cursosHTML = courses.map(courseName => `
             <li>
             <strong>${courseName}</strong>
             </li>
@@ -86,6 +89,7 @@ const sendEmailP = ({sourceEmail ,receivingEmail, coursesArray}) =>{
             });
         });
     } catch (error) {
+        console.log(error);
         return {
             statusCode: 500,
             body: JSON.stringify({ error: 'Error with sdk' }),

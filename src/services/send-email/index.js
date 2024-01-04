@@ -1,10 +1,11 @@
 const { sendEmailP  } = require('./src/libs/ses-lib');
 async function handler (event) {
-  console.log(event);
   try {
-    const { sourceEmail, receivingEmail, courses=[] } = event.body;
-  
+
+    const sourceEmail = process.env.SOURCE_EMAIL !== undefined ? process.env.SOURCE_EMAIL : 'usuariodemo446@gmail.com';
     
+    const {receivingEmail, courses } = event;
+  
     if (!sourceEmail || !receivingEmail) {
       return {
         statusCode: 400,
@@ -19,10 +20,10 @@ async function handler (event) {
     }
 
     const result = await sendEmailP({ sourceEmail ,receivingEmail, courses});
+
     return {
       statusCode: 200,
       idUser: receivingEmail,
-      //body: JSON.stringify(totalCourses),
       body: result,
     };
   } catch (error) {
