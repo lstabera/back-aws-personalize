@@ -2,7 +2,7 @@ const { sendEmailP  } = require('./src/libs/ses-lib');
 async function handler (event) {
   console.log(event);
   try {
-    const { sourceEmail, receivingEmail, courses=[] } = JSON.parse(event.body);
+    const { sourceEmail, receivingEmail, courses=[] } = event.body;
   
     
     if (!sourceEmail || !receivingEmail) {
@@ -11,14 +11,14 @@ async function handler (event) {
         body: JSON.stringify({ error: 'Parameters sourceEmail, receivingEmail are required' }),
       }
     }
-    if (courses.length < 0) {
+    if (!Array.isArray(courses)) {
       return {
         statusCode: 400,
         body: JSON.stringify({ error: 'INVALID_COURSES' }),
       }      
     }
 
-    const result = await sendEmailP({ sourceEmail ,receivingEmail, coursesArray});
+    const result = await sendEmailP({ sourceEmail ,receivingEmail, courses});
     return {
       statusCode: 200,
       idUser: receivingEmail,
@@ -29,7 +29,7 @@ async function handler (event) {
     console.error('Error  sendEmail:', error); 
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: 'The email could not be sent' }),
+      body: JSON.stringify({ error: 'The email could not be sent', details: error }),
     };
   }
 };
